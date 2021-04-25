@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ninja List | Home</title>
+        <title>Pavlin Ivanov | Home</title>
         <meta name='keywords' content='ninjas'></meta>
       </Head>
       <div>
