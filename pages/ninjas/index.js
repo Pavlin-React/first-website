@@ -1,6 +1,7 @@
 import styles from '../../styles/Ninjas.module.css'
 import Link from 'next/link'
 
+
 export const getStaticProps = async () => {
 
   let res = await fetch( 'http://jsonplaceholder.typicode.com/users' )
