@@ -7,20 +7,18 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div>
-      <Navbar />
-      <h1>Homepage</h1>
-      <p>
+      <h1 className={ styles.title }>Homepage</h1>
+      <p className={ styles.text }>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
         Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
         Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
       </p>
-      <p>
+      <p className={ styles.text }>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
         Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
         Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
       </p>
-      <Link href='/ninjas'><a>See Ninja Listing</a></Link>
-      <Footer />
+      <Link href='/ninjas'><a className={ styles.btn }>See Ninja Listing</a></Link>
     </div>
   )
 }
