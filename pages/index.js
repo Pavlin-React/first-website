@@ -1,7 +1,8 @@
-import Head from 'next/head'
 import Footer from '../comps/Footer'
 import Navbar from '../comps/Navbar'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import Head from 'next/head'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
         Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
       </p>
+      <Link href='/ninjas'><a>See Ninja Listing</a></Link>
       <Footer />
     </div>
   )
